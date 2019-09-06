@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Killing List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="victim">
+          <label for="victim" class="primary">Victim:</label>
+          <select id="victim">
+            <option value="" disabled selected></option>
+            <option value="Picachu">Giant Axe</option>
+            <option value="Jigglypuff">Pearl Necklace</option>
+            <option value="Psyduck">Psyduck</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="reason" class="primary">Reason:</label>
+          <input type="text" id="reason" required/>
+        </div>
+
+        <div class="weapon">
+          <label for="weapon" class="primary">Death by:</label>
+          <select id="weapon">
+            <option value="" disabled selected></option>
+            <option value="Giant Axe">Giant Axe</option>
+            <option value="Chocking on a nut">Pearl Necklace</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Kittens">Kittens</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Killing List</h1>
+    <ul id="killing-list"></ul>
+  </body>
+</html>
