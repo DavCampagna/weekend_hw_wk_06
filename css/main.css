@@ -1,6 +1,6 @@
 body {
   /* background-color: #cccccc; */
-  background-image: url('/background.jpg');
+  background-image: url('pokemon.jpeg');
 }
 
 input[type="submit"] {
@@ -23,4 +23,17 @@ select {
 :focus {
   outline-color: transparent;
   outline-style: none;
+}
+
+form {
+  background-color: orange;
+  width: fit-content;
+  padding: 0.5em;
+  text-align: left;
+  margin: auto;
+}
+
+ul {
+  background-color: pink;
+  opacity: 0.8;
 }
